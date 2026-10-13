@@ -1,0 +1,10 @@
+{
+  "name": "@monopoly/server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.mjs",
+    "build": "node --check src/index.mjs",
+    "typecheck": "node --check src/index.mjs"
+  }
+}
